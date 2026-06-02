@@ -1,6 +1,6 @@
 # Gestión del proyecto
 
-Para organizar el desarrollo de Syncora estoy utilizando Trello siguiendo una metodología inspirada en Kanban.
+Para organizar el desarrollo de Syncora estoy utilizando Trello.
 
 El tablero está dividido en varias columnas:
 
