@@ -7,7 +7,7 @@ import LoginPage from './pages/loginPages'
 import NotFoundPage from './pages/notfoundPages'
 import ProjectsDetailsPages from './pages/ProjectsDetailsPages'
 function App() {
-  const [projects, setProjects] = useState([])
+  const [projects, setProjects] = useState<any[]>([])
  return (
     <Routes>
       <Route
