@@ -9,7 +9,7 @@ function ProjectCard({ title, status, onDelete }: ProjectCardProps) {
   return (
     <div>
     <Link to={`/Projects/${title}`} > 
-      <div className="bg-gray-800 p-6 rounded-xl shadow-md w-80">
+      <div className="bg-gray-600 p-6 rounded-xl shadow-md w-80">
         <h2 className="text-2xl font-bold mb-2">
           {title}
         </h2>
@@ -24,7 +24,7 @@ function ProjectCard({ title, status, onDelete }: ProjectCardProps) {
 {onDelete && (
         <button
           onClick={onDelete}
-          className="bg-red-600 px-4 py-2 rounded-lg mt-4"
+          className="bg-gray-300 px-4 py-2 rounded-lg mt-4"
         >
           Eliminar
         </button>
